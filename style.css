@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Racing Sans One", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #2c2c2c;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  gap: 50px;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.head h1 {
+  font-size: 64px;
+}
+.head i {
+  cursor: pointer;
+}
+.head .click {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.head .click hr {
+  width: 240px;
+  height: 1px;
+}
+.input {
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.input input {
+  width: 700px;
+  height: 50px;
+  border-radius: 20px;
+  border: transparent;
+  font-size: 20px;
+  padding-right: 130px;
+}
+
+.input button {
+  width: 140px;
+  height: 50px;
+  position: absolute;
+  right: 400px;
+  border-radius: 15px;
+  border: transparent;
+  background-color: #4f4f4f;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+hr {
+  width: 1000px;
+}
+.tasks {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+.tasks label {
+  max-width: 830px;
+  min-height: 40px;
+  background-color: #222222;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+  justify-content: space-between;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.tasks label button {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  border: transparent;
+  font-size: 20px;
+  background-color: #999999;
+  cursor: pointer;
+}
+.tasks label button i {
+  font-weight: 400;
+}
